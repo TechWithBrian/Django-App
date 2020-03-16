@@ -1,0 +1,3 @@
+# Django-App
+First mini blog project on Django...
+
