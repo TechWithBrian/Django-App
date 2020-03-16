@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Blog</title>
+</head>
+<body>
+
+    
+    <div class="container" p.4>
+        {% for article in article_list %}
+    <h1>{{ article.name }}</h1>
+    <p>{{ article.description }}</p>
+    {% endfor %}
+    </div>
+    
+</body>
+</html>
